@@ -1,0 +1,423 @@
+.notif-div{
+    position: relative;
+}
+
+.notif-count{
+    position: absolute;
+    top: -3px;
+    right: -8px;
+}
+
+.notif-count p {
+    color: white;
+    background-color: red;
+    font-size: 12px;
+    padding: 1px 6px;
+    border-radius: 100%;
+}
+
+@media (min-width: 764.1px){
+
+    .nav-root-2{
+        display: none;
+    }
+
+    .nav-root-1{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        border-right: 1px rgb(214, 214, 214) groove;
+        width: 244px;
+        z-index: 100;
+    }
+
+    .insta-logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 45px;
+        margin-right: 5px;
+        margin-bottom: 37px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .nav-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+    }
+    .nav-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 18px;
+    }
+
+    .insta-logo-img{
+        width: 100px;
+        height: 29px;
+    }
+
+    .navbutton{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        align-items: center;
+        width: 200px;
+        height: 28px;
+        padding: 10px 7px;
+        margin-bottom: 8px;
+        cursor: pointer;
+    }
+
+    .image-nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin-left: 3px;
+    }
+
+    .image-nav-content{
+        width: 22px;
+        height: 22px;
+    }
+
+    .text-nav{
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+    }
+
+    .selected-nav{
+        font-weight: bold;
+    }
+
+    .profile-nav{
+        width: 24px;
+        height: 24px;
+        border-radius: 100%;
+    }
+
+
+    .text-nav-2-content{
+        font-size: 16px;
+    }
+
+    .image-nav-2-content{
+        width: 28px;
+        height: 28px;
+    }
+
+    .navbutton-2{
+        height: 28px;
+        margin-bottom: 10px;
+    }
+
+    .more-nav{
+        width: 40px;
+        height: 40px;
+    }
+    .more-nav-div{
+        margin-left: -5px;
+    }
+
+    .more-nav-text{
+        margin-left: 9px;
+    }
+
+    .navbutton:hover{
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+
+    .navbutton:active{
+        opacity: 0.5;
+    }
+    .threads-div{
+        display: none;
+    }
+
+    .second-insta-logo{
+        display: none;
+    } 
+
+
+    @media (max-width: 1260px) and (min-width: 765.1px){
+        .width-2-none{
+            display: flex;
+        }
+        .nav-root-1{
+            flex-direction: column;
+            background-color: white;
+            width: 48px;
+            z-index: 100;
+            padding: 8px 12px 20px 12px;
+            justify-content: start;
+            position: fixed;
+            bottom: 0;
+            border-top: 1px rgb(214, 214, 214) groove;
+            z-index: 100;
+        }    
+        .insta-logo{
+            margin-top: 20px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-bottom: 30px;
+            justify-content: center;
+
+        }
+        
+        .insta-logo-img{
+            display: none;
+        }
+        
+        .navbutton{
+            justify-content: center;
+            width: 40px;
+            border-radius: 20px;
+        }
+        
+        .text-nav{
+            display: none;
+        }
+        
+        .text-nav-2-content{
+            display: none;
+        }
+        
+        .insta-logo:hover{
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+        
+        .insta-logo:active{
+            opacity: 0.5;
+        }
+        .threads-div{
+            display: none;
+        }
+        
+        .second-insta-logo{
+            display: flex;
+            width: 22px;
+            height: 22px;   
+            padding: 10px 7px;
+        } 
+        body{
+            margin: 0;
+            padding-left: 143px;
+            padding-right: 70px;   
+        }
+    }
+
+    .width-1-none{
+        display: none;
+    }
+
+    @media (min-height: 700.1px){
+        .threads-div{
+            display: flex;
+        }
+    }
+
+}
+
+@media (max-width: 764px){
+    .nav-root-1{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        border-top: 1px rgb(214, 214, 214) groove;
+        width: 100%;
+        height: 48px;
+        z-index: 100;
+    }
+    
+    .insta-logo{
+        display: none
+    }
+    .nav-1{
+        padding: 0 45px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex: 1;
+        width: 100%;
+    }
+    
+    .navbutton{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 100%;
+        cursor: pointer;
+    }
+    
+    .image-nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .image-nav-content{
+        width: 22px;
+        height: 22px;
+    }
+    
+    .text-nav{
+        display: none;
+    }
+    
+    .profile-nav{
+        width: 24px;
+        height: 24px;
+        border-radius: 100%;
+    }
+    
+    .navbutton:hover .image-nav-content{
+        width: 24px;
+        height: 24px;
+    }
+    .navbutton:hover .profile-nav{
+        width: 26px;
+        height: 26px;
+    }
+    
+    .navbutton:active{
+        opacity: 0.5;
+    }
+    
+    .second-insta-logo{
+        display: none;
+    } 
+    .notdis{
+        display: none;
+    }
+
+    .width-2-none{
+        display: none;
+    }
+
+    .nav-root-2{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        z-index: 200;
+        border-bottom: 1px rgb(232, 232, 232) groove;
+    }
+    
+    .part-1, .part-2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+    }
+    .part-2{
+        margin-right: 16px;
+    }
+    
+    .part-1{
+        margin-left: 16px;
+        margin-right: 10px;
+    }
+    
+    .logo-1-img{
+        width: 85px;
+        height: 28px;
+        margin-right: 10px;
+    }
+    
+    .logo-2-img{
+        width: 10px;
+        height: 10px;
+        padding-bottom: 4px;
+    }
+    
+    .input-zone{
+        position: relative;
+        display: flex;
+    }
+    
+    .input-box{
+        width: 235px;
+        height: 36px;
+        background-color: rgb(239, 239, 239);
+        padding: 0px 16px;
+        border: none;
+        border-radius: 8px;
+    }
+    
+    .input-zone:focus-within .input-box-absolute{
+        display: none;
+    }
+    
+    
+    .input-box-absolute{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        bottom: 0px;
+        left: 16px;
+        height: 36px;
+        z-index: 90;
+    }
+    
+    .input-box-absolute div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .input-box-img{
+        width: 16px;
+        height: 16px;
+        margin-right: 10px;
+    }
+    .input-box-text{
+        font-size: 16px;
+        color:  rgb(115, 115, 115);
+        font-weight: 200;
+    }
+    
+    .notification-zone{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 21px;
+    }
+    
+    .notification-box{
+        width: 23px;
+        height: 23px;
+    }
+
+    body{
+        margin: 0;
+        padding: 58px 0px;
+    }
+}
